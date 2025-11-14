@@ -72,3 +72,16 @@ On ajoute les propriétés "visibility: hidden" et "opacity: 0" pour masquer le 
 .menu__link:hover {
   background: #f5f5f5;
 }
+
+.media--fullwidth {
+  width: 100%;
+  height: auto;
+}
+
+nav>h3::before {
+  content: url("../../../public/icones/book.svg");
+}
+
+nav>ul>li>a::before {
+  content: url("../../../public/icones/bag-plus.svg");
+}
